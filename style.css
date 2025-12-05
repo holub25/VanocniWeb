@@ -1,6 +1,6 @@
 .main-div {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     /* například – výška celé obrazovky */
     background-image: url("Pozadí3.jpg");
     background-size: cover;
@@ -28,6 +28,7 @@ body {
 .title {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: white;
     font-size: 50px;
 }
@@ -38,14 +39,14 @@ body {
 
 .text {
     display: flex;
-    color: lightcoral;
+    color: white;
     font-size: 30px;
     justify-content: center;
     text-align: center;
 }
 
 .image {
-    width: 55%;
+    width: 270px;
     height: 50vh;
     background: url(DrzakyObrazek.jpg);
     background-size: contain;
@@ -54,9 +55,9 @@ body {
 
 }
 
-@media (max-width: 760px) {
+@media (max-width: 420px) {
     .main-div {
-        background-position: 30% center; /* posune obrázek doprava */
+        background-position: 50% center; /* posune obrázek doprava */
     }
 
     .section {
@@ -64,7 +65,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 40%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 30px;
     }
@@ -79,7 +80,7 @@ body {
 
     .image {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         background: url(DrzakyObrazek.jpg) 50% 50%;
         background-size: contain;
         background-repeat: no-repeat;
