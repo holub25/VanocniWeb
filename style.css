@@ -47,9 +47,42 @@ body {
 .image {
     width: 55%;
     height: 50vh;
-    background: url(DrzakyObrazek.jpg) ;
+    background: url(DrzakyObrazek.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
+
+}
+
+@media (max-width: 1000px) {
+    .main-div {
+        background-position: 30% center; /* posune obrázek doprava */
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .text {
+        display: flex;
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 50vh;
+        background: url(DrzakyObrazek.jpg) 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
