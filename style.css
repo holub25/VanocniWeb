@@ -38,7 +38,7 @@ body {
 
 .text {
     display: flex;
-    color: white;
+    color: lightcoral;
     font-size: 30px;
     justify-content: center;
     text-align: center;
@@ -54,7 +54,7 @@ body {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 760px) {
     .main-div {
         background-position: 30% center; /* posune obrázek doprava */
     }
